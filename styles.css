@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100vw;
+}
+#navlist{
+    width: 100%;
+    padding: 5px;
+    padding-right: 30px;
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navlist input[type=text]{
+    width: 25vw;
+    border-radius: 5px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    background-color: #A9C9FF;
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+.navContainer{
+    padding-left: 12px;
+    width:100vw;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#navLogo{
+    font-size: 2.5rem;
+    color: peachpuff;
+}
+a{
+    text-decoration: none;
+}
+#navItems{
+    display: flex;
+    gap: 13px;
+}
+#navlist input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border-style: double;
+}
+#navlist button {
+    float: right;
+    padding: 14px 17px;
+    margin-top: 9px;
+    margin-right: 16px;
+    background: #d4bfbf;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    width: 15px;
+    border-style: double;
+    translate: 0px -1px;
+}
+.midBox img{
+    padding: 8px;
+    height: 88.4vh;
+    width: 100vw;
+    border-radius: 50px;
+}
+.icon{
+    padding: auto;
+    height: 28px;
+    width: 34px;
+    translate: -17px -14px;
+}
+.contentBox{
+    width: 100vw;
+    margin: 0px;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftBox{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.foodName{
+    font-size: 300%;
+    margin-left: -60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.rightBox img{
+    height: 595px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 50px;
+}
+.rascls{
+    transform: translateX(-20px);
+}
+.footerBox{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    text-align: center;
+    min-height: 20px;
+}
+
+.footerBox p{
+    color: peachpuff;
+    font-size: 1.3rem;
+}
+.recipeList ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 36px;
+    margin-left: 80px;
+}
+.recipeList li{
+    padding: 10px;
+    color: #4158D0;
+}
+.aboutBox{
+    width: 100vw;
+    height: 88.9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 130px 100px;
+}
+span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    color: rgb(220, 59, 220);
+}
+.aboutBox h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgb(175, 14, 175);
+}
+.conBox{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.conBox h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
+.conBox p{
+    color: #5c2ec7;
+}
+.conBox p,input,textarea,label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.conBox form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+.conBox input,textarea,label{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: rgb(50, 13, 142);
+}
+.conBox input,textarea{
+    /* background-color: transparent; */
+    border: 0;
+    border-bottom: 2px solid rgb(5, 79, 116);
+    border-left: 2px solid rgb(5,79,116);
+    color: rgb(68, 3, 59);
+    padding: 8px;
+    border-radius: 7px;
+}
+.conBox input[type=submit]{
+    background-color: rgb(212, 0, 255);
+    padding: 9px 0;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(5, 79, 116);
+    margin-top: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.conBox input[type=submit]:hover{
+    background: rgb(143, 12, 176);
+    color: rgb(226, 168, 7);
+}
+.conBox input{
+    font-size: 1rem;
+}
+.conBox textarea{
+    height: 198px;
+    font-size: 1.4rem;
+}
+.conBox input:focus,textarea:focus{
+    /* outline: 1.5px solid rgb(234, 36, 171); */
+    outline: none;
+}
