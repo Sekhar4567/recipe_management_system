@@ -72,12 +72,6 @@ echo'
                             <p id="navLogo">Recipe Le-lo</p>
                         </li>
                         <li>
-                            <form action="">
-                                <input type="text" placeholder="Search your Recipe😋">
-                                <button type="submit"><img src="search_icon.png" alt="" class="icon"></button>
-                            </form>
-                        </li>
-                        <li>
                             <div id="navItems">
                                 <a href="index.php">Home</a>
                                 <a href="recipes.php">Recipes</a>
