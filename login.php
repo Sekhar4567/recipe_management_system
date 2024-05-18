@@ -100,11 +100,11 @@ echo '
                 <form action="login.php" method="post" class="logform">
                 <?php include("errors.php");?>
                 <div class="input_grp">
-                    <label>Username</label>
+                    <label for="username">Username</label>
                     <input type="text" name="username">
                 </div>
                 <div class="input_grp">
-                    <label>Password</label>
+                    <label for"password">Password</label>
                     <input type="password" name="password">
                 </div>
                 <div class="input_grp">
