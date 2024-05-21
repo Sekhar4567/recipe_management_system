@@ -1,5 +1,4 @@
-<?php include('server.php') ;
-echo'
+<?php include('server.php') ;?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,6 +59,13 @@ echo'
         p{
             margin-left: 30px;
         }
+        .footerBox{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -91,11 +97,11 @@ echo'
                 <?php include("errors.php"); ?>
                 <div class="input-group">
                   <label>Username</label>
-                  <input type="text" name="username" value="';?><?php echo $username; ?>"><?php echo '
+                  <input type="text" name="username" value="<?php echo $username; ?>">
                 </div>
                 <div class="input-group">
                   <label>Email</label>
-                  <input type="email" name="email" value="';?><?php echo $email; ?>"><?php echo'
+                  <input type="email" name="email" value="<?php echo $email; ?>">
                 </div>
                 <div class="input-group">
                   <label>Password</label>
@@ -120,5 +126,4 @@ echo'
         </footer>
     </div>
 </body>
-</html>';
-?>
+</html>

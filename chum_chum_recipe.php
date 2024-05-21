@@ -1,5 +1,4 @@
-<?php
-echo'
+<?php?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -82,5 +81,4 @@ echo'
         </footer>
     </div>
 </body>
-</html>';
-?>
+</html>

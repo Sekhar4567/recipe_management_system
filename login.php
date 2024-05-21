@@ -1,5 +1,4 @@
-<?php include('server.php');
-echo '
+<?php include('server.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@ echo '
     <style>
         .head {
             margin: 50px auto 0px;
-            margin-top: 96px;
+            margin-top: 56px;
             color: rgb(22, 124, 207);
             font-size: 30px;
             text-align: center;
@@ -69,6 +68,13 @@ echo '
         p{
             margin-left: 30px;
         }
+        .footerBox{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -104,7 +110,7 @@ echo '
                     <input type="text" name="username">
                 </div>
                 <div class="input_grp">
-                    <label for"password">Password</label>
+                    <label for="password">Password</label>
                     <input type="password" name="password">
                 </div>
                 <div class="input_grp">
@@ -121,5 +127,4 @@ echo '
         </footer>
     </div>
 </body>
-</html>';
-?>
+</html>
